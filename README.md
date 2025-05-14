@@ -1,6 +1,6 @@
 # 🚨 Abusive Language Detection using BERT
 
-This project detects abusive comments on social media using **Natural Language Processing (NLP)** and a **BERT-based deep learning model**. It leverages pre-trained transformer embeddings to classify text into multiple categories of abuse with high accuracy.
+This project detects abusive comments on social media using Natural Language Processing (NLP) and a BERT-based deep learning model, which is one of the Large Language Models (LLMs). It leverages pre-trained transformer embeddings to classify text into multiple categories of abuse with high accuracy.
 
 ---
 
@@ -46,7 +46,8 @@ This project detects abusive comments on social media using **Natural Language P
 
 Here is how the app looks when running locally:
 
-![Abusive Language Detection Example](Example.png)
+![Abusive Language Detection Example](Example.png.png)
+![Example](Example2.png)
 
 ## 📌 Future Work
 
@@ -56,12 +57,21 @@ Here is how the app looks when running locally:
 
 ---
 ## 📂 Suggested Folder Structure
+
 abusive-language-detection/
 │
+
 ├── app.py                  # Flask backend using BERT
+
 ├── model.pt                # Trained PyTorch model
+
 ├── model.py                # Model architecture (DistilBERT + classifier)
+
 ├── templates/
+
 │   ├── index.html          # User input form
+
 │   └── result.html         # Classification result display
+
 ├── README.md
+
