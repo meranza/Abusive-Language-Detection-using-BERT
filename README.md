@@ -18,7 +18,11 @@ This project detects abusive comments on social media using **Natural Language P
   - `identity_hate`
 
 ---
+## 📥 Dataset
 
+- **Source**: [Kaggle Jigsaw Multilingual Toxic Comment Classification Challenge](https://www.kaggle.com/competitions/jigsaw-multilingual-toxic-comment-classification)
+
+---
 ## 🔧 Tech Stack
 
 - Python
@@ -28,7 +32,6 @@ This project detects abusive comments on social media using **Natural Language P
 - HTML/CSS (frontend)
 
 ---
-
 ## 🚀 How to Run
 
 1. **Install dependencies**
@@ -38,7 +41,20 @@ This project detects abusive comments on social media using **Natural Language P
 2. **Run the Flask app**
    ```bash
    python app.py
+---
+## 🖼 Example
 
+Here is how the app looks when running locally:
+
+![Abusive Language Detection Example](Example.png)
+
+## 📌 Future Work
+
+- Add BiLSTM comparison  
+- Host live version online (Render, Replit, Hugging Face Spaces)  
+- Improve UX with JavaScript and loading spinner
+
+---
 ## 📂 Suggested Folder Structure
 abusive-language-detection/
 │
